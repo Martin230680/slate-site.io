@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slate</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="https://martin230680.github.io/my_html_projects/" class="header__logolink">
+                <img class="header__logolink-img" src="img/Logo.svg" alt="logotip">
+            </a>
+            <div class="header__centre">
+                <nav class="header__nav nav">
+                    <ul class="nav__list list-reset">
+                        <li class="nav__item">
+                            <a href="#opportunities" class="nav__link" aria-label="Пункт главного меню Возможности">
+                                Возможности
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#extensions" class="nav__link" aria-label="Пункт главного меню Расширения">
+                                Расширения
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#gallery" class="nav__link" aria-label="Пункт главного меню Галерея">
+                                Галерея
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#feedback" class="nav__link" aria-label="Пункт главного меню Отзывы">
+                                Отзывы
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <button class="header__btn btn-reset" aria-label="Авторизоваться на сайте">
+                Войти
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="home">
+            <div class="container home__container flex column">
+                <div class="home__title">
+                    <h1 class="home__title-text reset-margin"> Работайте на скорости мысли </h1>
+                </div>
+                <div class="home__descr">
+                    <p class="home__descr-text reset-margin">
+                        Большинство календарей предназначены для команд. Slate предназначен для фрилансеров, которым
+                        нужен удобный способ планировать свой график.
+                    </p>
+                </div>
+                <div class="home__btn flex">
+
+                    <button class="btn-reset home__btn1"
+                        aria-label="Секция работайте на скорости мысли Попробовать бесплатно">
+                        Попробовать бесплатно
+                    </button>
+                    <button class="btn-reset home__btn2" aria-label="Секция работайте на скорости мысли Узнать больше">
+                        Узнать больше
+                    </button>
+                </div>
+            </div>
+
+            <div class="homeimg">
+                <div class="homeimg__picture flex">
+                    <div class="homeimg__picture-img1">
+                        <div class="homeimg__picture-img11">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="opportunities" class="opportunities">
+            <div class="container opportunities__container flex column">
+                <div class="opportunities__hederwrap flex column">
+                    <h2 class="opportunities__hederwrap-title reset-margin">
+                        Возможности
+                    </h2>
+                    <p class="opportunities__hederwrap-descr reset-margin">
+                        Большинство календарей предназначены для команд. Slate предназначен&nbsp;для фрилансеров,
+                        которым
+                        нужен удобный способ планировать свой график.
+                    </p>
+                </div>
+                <div class="opportunities__blocks flex">
+                    <div class="opportunities__blocks-left blockleft flex">
+                        <img class="blockleft__img flex" src="img/Frame19.png" alt="opportunities_pic">
+                        <img class="blockleft__img-mobile flex" src="img/opot_mobile.png"
+                            alt="opportunities_pic-mobile">
+                    </div>
+                    <div class="opportunities__block-right  blockright flex">
+                        <ul class="blockright__list list-reset">
+                            <li class="blockright__list-item blockrightitem flex column">
+                                <div class="blockrightitem__wrap flex">
+                                    <svg class="blockrightitem__icon" width="26" height="24" viewBox="0 0 26 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.64636 13.7764L11.4197 10.003L3.16636 1.76302C2.52636 1.12302 1.41969 1.29636 1.01969 2.12302C0.073024 4.10969 0.419691 6.54969 2.05969 8.20302L7.64636 13.7764ZM16.6864 11.363C18.7264 12.3097 21.593 11.643 23.713 9.52302C26.2597 6.97635 26.753 3.32302 24.793 1.36302C22.8464 -0.583644 19.193 -0.103644 16.633 2.44302C14.513 4.56302 13.8464 7.42969 14.793 9.46969L2.71302 21.5497C2.46372 21.799 2.32366 22.1371 2.32366 22.4897C2.32366 22.8423 2.46372 23.1804 2.71302 23.4297C2.96233 23.679 3.30046 23.819 3.65302 23.819C4.00559 23.819 4.34372 23.679 4.59302 23.4297L12.8464 15.203L21.0864 23.443C21.2098 23.5665 21.3563 23.6644 21.5176 23.7312C21.6789 23.798 21.8518 23.8324 22.0264 23.8324C22.2009 23.8324 22.3738 23.798 22.5351 23.7312C22.6964 23.6644 22.8429 23.5665 22.9664 23.443C23.0898 23.3196 23.1877 23.173 23.2545 23.0117C23.3213 22.8505 23.3557 22.6776 23.3557 22.503C23.3557 22.3284 23.3213 22.1556 23.2545 21.9943C23.1877 21.833 23.0898 21.6865 22.9664 21.563L14.7264 13.323L16.6864 11.363Z"
+                                            fill="#02E4C0" />
+                                    </svg>
+                                    <h3 class="blockrightitem__title reset-margin">
+                                        Полезные подсказки
+                                    </h3>
+                                </div>
+                                <p class="blockrightitem__descr-desktop reset-margin">
+                                    Когда вы добавите задачу&nbsp;в&nbsp;свой&nbsp;календарь, Slate предложит
+                                    полезную
+                                    информацию.
+                                </p>
+                                <p class="blockrightitem__descr-mobile reset-margin">
+                                    Когда вы добавите задачу&nbsp;в&nbsp;свой&nbsp;календарь, Slate&nbsp;предложит
+                                    полезную
+                                    информацию.
+                                </p>
+
+                            </li>
+                            <li class="blockright__list-item blockrightitem flex column">
+                                <div class="blockrightitem__wrap flex">
+                                    <svg class="blockrightitem__icon1" width="30" height="31" viewBox="0 0 30 31"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.5495 14.2274C14.0285 16.6874 13.811 19.5824 12.042 20.7524C10.273 21.8924 7.634 20.8274 6.1405 18.3674C4.6615 15.9074 4.8935 12.9824 6.6625 11.8424C8.4315 10.7024 11.0705 11.7674 12.5495 14.2274ZM15 24.4574C17.9 24.4574 18.625 23.3324 18.625 23.3324C18.625 23.3324 17.9 26.3324 15 26.3324C12.1 26.3324 11.375 23.3774 11.375 23.3324C11.375 23.3324 12.1 24.4574 15 24.4574ZM23.3375 11.8424C25.1065 12.9824 25.3385 15.9074 23.8595 18.3674C22.366 20.8274 19.727 21.8924 17.958 20.7524C16.189 19.5824 15.9715 16.6874 17.4505 14.2274C18.9295 11.7674 21.5685 10.7024 23.3375 11.8424ZM15 27.8324C18.625 27.8324 26.6 20.1224 26.6 14.3324C26.6 8.5424 21.3945 3.8324 15 3.8324C8.6055 3.8324 3.4 8.5424 3.4 14.3324C3.4 20.1224 11.375 27.8324 15 27.8324ZM15 0.832397C22.975 0.832397 29.5 6.8924 29.5 14.3324C29.5 20.4524 21.264 30.8324 15 30.8324C8.736 30.8324 0.5 20.4524 0.5 14.3324C0.5 6.8924 7.025 0.832397 15 0.832397Z"
+                                            fill="#02E4C0" />
+                                    </svg>
+
+                                    <h3 class="blockrightitem__title reset-margin">
+                                        Умный интерфейс
+                                    </h3>
+                                </div>
+                                <p class="blockrightitem__descr-desktop reset-margin">
+                                    Интерфейс приложения автоматически&nbsp;подстраивается под вашу текущую задачу.
+                                </p>
+                                <p class="blockrightitem__descr-mobile reset-margin">
+                                    Интерфейс приложения автоматически подстраивается под вашу текущую задачу.
+                                </p>
+                            </li>
+                            <li class="blockright__list-item blockrightitem flex column">
+                                <div class="blockrightitem__wrap flex">
+                                    <svg class="blockrightitem__icon2" width="42" height="20" viewBox="0 0 42 20"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M32.275 0.83256C29.815 0.83256 27.4917 1.8214 25.8346 3.53423L13.825 14.5528C12.7317 15.6829 11.2796 16.3009 9.725 16.3009C6.53042 16.3009 3.91667 13.6346 3.91667 10.3325C3.91667 7.0305 6.53042 4.36415 9.725 4.36415C11.2796 4.36415 12.7317 4.98218 13.8933 6.18292L15.8238 7.94872L18.4375 5.58255L16.2508 3.62252C15.3953 2.7349 14.3782 2.03133 13.2581 1.55246C12.1379 1.07358 10.9371 0.828905 9.725 0.83256C4.63417 0.83256 0.5 5.10579 0.5 10.3325C0.5 15.5593 4.63417 19.8325 9.725 19.8325C12.185 19.8325 14.5083 18.8437 16.1654 17.1309L28.175 6.11229C29.2683 4.98218 30.7204 4.36415 32.275 4.36415C35.4696 4.36415 38.0833 7.0305 38.0833 10.3325C38.0833 13.6346 35.4696 16.3009 32.275 16.3009C30.7375 16.3009 29.2683 15.6829 28.1067 14.4822L26.125 12.6987L23.5625 15.0649L25.7492 17.0426C26.607 17.9257 27.625 18.6252 28.7448 19.1009C29.8646 19.5767 31.0643 19.8193 32.275 19.8149C37.3658 19.8149 41.5 15.5593 41.5 10.3325C41.5 5.03515 37.3658 0.83256 32.275 0.83256Z"
+                                            fill="#02E4C0" />
+                                    </svg>
+
+                                    <h3 class="blockrightitem__title reset-margin">
+                                        Синхронизация
+                                    </h3>
+                                </div>
+                                <p class="blockrightitem__descr-desktop reset-margin">
+                                    Slate синхронизируется со&nbsp;всеми&nbsp;вашими календарями.
+                                </p>
+                                <p class="blockrightitem__descr-mobile reset-margin">
+                                    Интерфейс приложения автоматически подстраивается под вашу текущую задачу.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="extensions" class="extensions">
+            <div class="container extensions__container flex column">
+                <div class="extensions__hederwrap flex column">
+                    <h2 class="extensions__hederwrap-title reset-margin">
+                        Расширения
+                    </h2>
+                    <p class="extensions__hederwrap-descr reset-margin flex">
+                        Slate поддерживает добавление расширений для того, чтобы ваша работа была еще удобнее.
+                    </p>
+                </div>
+                <div class="extensions__blocks extensionsblocks flex">
+                    <div class="extensionsblocks__item flex column">
+                        <h3 class="extensionsblocks__item-title flex">
+                            Работа под защитой
+                        </h3>
+                        <p class="extensionsblocks__item-descr flex">
+                            Вы когда-нибудь задумывались, хорошо&nbsp;ли&nbsp;защищён ваш рабочий аккаунт? Slate
+                            Safe поможет
+                            вам c этим.
+                        </p>
+                        <button class="btn-reset extensionsblocks__btn extensionsblocks__btn1"
+                            aria-label="Секция сайта Расширения. Блок работа над защитой. Скачать.">
+                            Скачать
+                        </button>
+                        <img class="extensionsblocks__item-img1" src="img/MacbookPro.jpg" alt="macbook_pro">
+                    </div>
+                    <div class="extensionsblocks__item flex column">
+                        <h3 class="extensionsblocks__item-title flex">
+                            Slate не конкурирует, а&nbsp;дружит&nbsp;со&nbsp;своими "коллегами"
+                        </h3>
+                        <p class="extensionsblocks__item-descr extensionsblocks__item-descr1 flex">
+                            Свяжите задачи в Slate Connect с задачами в других системах планирования проектов.
+                        </p>
+                        <button class="btn-reset extensionsblocks__btn extensionsblocks__btn2"
+                            aria-label="Секция сайта Расширения. Блок Slate не конкурирует, а дружит со своими коллегами. Попробовать бесплатно.">
+                            Попробовать бесплатно
+                        </button>
+                        <img class="extensionsblocks__item-img2" src="img/BoardsNotifications.jpg"
+                            alt="BoardsNotifications">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="gallery">
+            <div class="container gallery__container flex column">
+                <div class="gallery__hederwrap flex column">
+                    <h2 class="gallery__hederwrap-title reset-margin">
+                        Галерея
+                    </h2>
+                    <p class="gallery__hederwrap-descr reset-margin">
+                        Мы уделяем особое внимание эргономике и заботимся о том, что бы вам было удобно.
+                    </p>
+                </div>
+                <div class="gallery__midlewrap flex">
+                    <img class="gallery__midlewrap-img" src="img/gallery_pic1.jpg" alt="gallary_pic1">
+                    <img class="gallery__midlewrap-img" src="img/gallery_pic2.jpg" alt="gallary_pic2">
+                    <img class="gallery__midlewrap-img" src="img/gallery_pic3.jpg" alt="gallary_pic3">
+                    <img class="gallery__midlewrap-img" src="img/gallery_pic4.jpg" alt="gallary_pic4">
+                    <img class="gallery__midlewrap-imgmob" src="img/gallary_mob_pic1.jpg" alt="gallary_pic5-mobversion">
+                    <img class="gallery__midlewrap-imgmob" src="img/gallary_mob_pic2.jpg" alt="gallary_pic6-mobversion">
+                    <img class="gallery__midlewrap-imgmob" src="img/gallary_mob_pic3.jpg" alt="gallary_pic7-mobversion">
+                    <img class="gallery__midlewrap-imgmob" src="img/gallary_mob_pic4.jpg" alt="gallary_pic8-mobversion">
+                </div>
+            </div>
+
+            <div class="gallerybottom flex column">
+                <div class="gallerybottom__bottomwrap flex">
+                    <img class="gallerybottom__bottomwrap-img bottomwrap-img1" src="img/galarbotpic1.jpg"
+                        alt="gallary_pic5">
+                    <img class="gallerybottom__bottomwrap-img bottomwrap-img2" src="img/galarbotpic2.jpg"
+                        alt="gallary_pic6">
+                    <img class="gallerybottom__bottomwrap-img bottomwrap-img1" src="img/galarbotpic3.jpg"
+                        alt="gallary_pic7">
+                </div>
+                <button class="btn-reset gallerybottom__btn" aria-label="Секция сайта Галерея. Смотреть еще.">
+                    Смотреть еще
+                </button>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container partners__container flex column">
+                <div class="partners__hederwrap flex column">
+                    <h2 class="partners__hederwrap-title reset-margin">
+                        Партнеры
+                    </h2>
+                    <p class="partners__hederwrap-descr reset-margin">
+                        Коллаборация с партнерами дает дополнительные возможности в использовании Slate.
+                    </p>
+                </div>
+                <div class="partners__midlewrap midlewrap flex">
+                    <div class="midlewrap__blockleft flex">
+                        <a class="midlewrap__blockleft-link" href="blanc" target="_blank"
+                            aria-label="Секция сайта Партнеры. Переход на сайт партнера 1">
+                            <img class="midlewrap__blockleft-img" src="img/logos_apple-app-store.svg"
+                                alt="logo_appstore">
+                        </a>
+                        <a class="midlewrap__blockleft-link" href="blanc" target="_blank"
+                            aria-label="Секция сайта Партнеры. Переход на сайт партнера 2">
+                            <img class="midlewrap__blockleft-img" src="img/logos_apiary.svg" alt="logo_apiary">
+                        </a>
+                        <a class="midlewrap__blockleft-link" href="blanc" target="_blank"
+                            aria-label="Секция сайта Партнеры. Переход на сайт партнера 3">
+                            <img class="midlewrap__blockleft-img" src="img/logos_android-icon.svg" alt="logo_android">
+                        </a>
+                    </div>
+                    <div class="midlewrap__blockright flex">
+                        <a class="midlewrap__blockright-link" href="blanc" target="_blank"
+                            aria-label="Секция сайта Партнеры. Переход на сайт партнера 4">
+                            <img class="midlewrap__blockright-img midlewrap__blockright-img1"
+                                src="img/logos_basecamp.svg" alt="logo_basecamp">
+                        </a>
+                        <a class="midlewrap__blockright-link" href="blanc" target="_blank"
+                            aria-label="Секция сайта Партнеры. Переход на сайт партнера 5">
+                            <img class="midlewrap__blockright-img midlewrap__blockright-img2" src="img/logos_airbnb.svg"
+                                alt="logo_airbnb">
+                        </a>
+                        <a class="midlewrap__blockright-link" href="blanc" target="_blank"
+                            aria-label="Секция сайта Партнеры. Переход на сайт партнера 6">
+                            <img class="midlewrap__blockright-img midlewrap__blockright-img3" src="img/ibm.svg"
+                                alt="logo_ibm">
+                        </a>
+                    </div>
+                </div>
+                <button class="btn-reset partners__btn flex" aria-label="Секция Партнеры. Все партнеры.">
+                    Все партнеры
+                </button>
+            </div>
+        </section>
+        <section id="feedback" class="feedback">
+            <div class="container feedback__container flex column">
+                <h2 class="feedback__title reset-margin">
+                    Отзывы
+                </h2>
+                <ul class="feedback__list feedbacklist list-reset flex">
+                    <li class="feedbacklist__item feedbacklistitem flex column">
+                        <div class="feedbacklistitem__wrap flex">
+                            <img class="feedbacklistitem__wrap-img" src="img/alena.png" alt="avatar_alena">
+                            <p class="feedbacklistitem__wrap-fio flex reset-margin">Алёна Романова Дизайнер</p>
+                        </div>
+                        <p class="feedbacklistitem__descr flex reset-margin">
+                            Slate поможет вам узнать, сколько еще дней&nbsp;нужно работать, чтобы достичь
+                            своей&nbsp;финансовой цели на месяц и год. А расширение защиты позаботится о безопасности
+                            данных.
+                        </p>
+                    </li>
+                    <li class="feedbacklist__item feedbacklistitem flex column">
+                        <div class="feedbacklistitem__wrap flex">
+                            <img class="feedbacklistitem__wrap-img" src="img/evgeni.png" alt="avatar_evgeny">
+                            <p class="feedbacklistitem__wrap-fio flex reset-margin">Евгений Титов Инженер</p>
+                        </div>
+                        <p class="feedbacklistitem__descr flex reset-margin">
+                            Я в восторге от этого приложения! Оно&nbsp;является удобным инструментом в моей обычной
+                            работе дизайнера. Интерфейс приложения прост, что делает работу&nbsp;в&nbsp;нем&nbsp;более
+                            эффективной.
+                        </p>
+                    </li>
+                    <li class="feedbacklist__item feedbacklistitem flex column">
+                        <div class="feedbacklistitem__wrap flex">
+                            <img class="feedbacklistitem__wrap-img " src="img/roman.png" alt="avatar_roman">
+                            <p class="feedbacklistitem__wrap-fio flex reset-margin">Роман Васильев Дизайнер</p>
+                        </div>
+                        <p class="feedbacklistitem__descr flex  reset-margin">
+                            Приложение – настоящий подарок для инженеров! Оно&nbsp;предоставляет впечатляющий набор
+                            инструментов, который существенно упрощает и оптимизирует нашу работу.
+                        </p>
+                    </li>
+                    <li class="feedbacklist__item feedbacklistitem flex column">
+                        <div class="feedbacklistitem__wrap flex">
+                            <img class="feedbacklistitem__wrap-img " src="img/liza.png" alt="avatar_liza">
+                            <p class="feedbacklistitem__wrap-fio reset-margin">Лиза Ковалёва Копирайтер</p>
+                        </div>
+                        <p class="feedbacklistitem__descr reset-margin">
+                            Это приложение стало настоящим спасением для меня, как&nbsp;для&nbsp;копирайтера. Оно умело
+                            сочетает все необходимые инструменты для&nbsp;творческого процесса,
+                            делая&nbsp;мою&nbsp;работу
+                            более
+                            удобной.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container footer__container flex">
+                <div class="footer__links flex">
+                    <div class="footer__firstmenu footermenu flex column">
+                        <h3 class="footermenu__title reset-margin">
+                            Основное
+                        </h3>
+                        <ul class="footermenu__list footermenulist list-reset flex column">
+                            <li class="footermenulist__item">
+                                <a href="#opportunities" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Основное. Возможности">
+                                    Возможности
+                                </a>
+                            </li>
+                            <li class="footermenulist__item">
+                                <a href="#extensions" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Основное. Расширения">
+                                    Расширения
+                                </a>
+                            </li>
+                            <li class="footermenulist__item">
+                                <a href="#gallery" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Основное. Галерея">
+                                    Галерея
+                                </a>
+                            </li>
+                            <li class="footermenulist__item">
+                                <a href="#feedback" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Основное. Отзывы">
+                                    Отзывы
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="footer__secondmenu footermenu flex column">
+                        <h3 class="footermenu__title reset-margin">
+                            Ресурсы
+                        </h3>
+                        <ul class="footermenu__list footermenulist list-reset flex column">
+                            <li class="footermenulist__item">
+                                <a href="#" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Ресурсы. Приложения">
+                                    Приложение
+                                </a>
+                            </li>
+                            <li class="footermenulist__item">
+                                <a href="#" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Ресурсы. Обновление">
+                                    Обновление
+                                </a>
+                            </li>
+                            <li class="footermenulist__item">
+                                <a href="#" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Ресурсы. Скрипты">
+                                    Скрипты
+                                </a>
+                            </li>
+                            <li class="footermenulist__item">
+                                <a href="#" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Ресурсы. Документация">
+                                    Документация
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__therdmenu footermenu flex column">
+                        <h3 class="footermenu__title reset-margin">
+                            Мы
+                        </h3>
+                        <ul class="footermenu__list footermenulist list-reset flex column">
+                            <li class="footermenulist__item">
+                                <a href="#" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Мы. О приложении">
+                                    О приложении
+                                </a>
+                            </li>
+                            <li class="footermenulist__item">
+                                <a href="#" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Мы. Контакты">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="footermenulist__item">
+                                <a href="#" class="footermenulist__item-link footermenulist__item-nav"
+                                    aria-label="Пункт меню footer. Блок Мы. Связаться">
+                                    Связаться
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__sosialmenu footermenusos flex column">
+                    <ul class="footermenusos__list footermenusoslist list-reset flex column">
+                        <li class="footermenusoslist__item flex">
+                            <a class="footermenusoslist__item-link pointlink flex"
+                                aria-label="Пункт меню footer. Переход на позиционирование на карте"
+                                href="http://maps.yandex.ru/?text=Казань,ул.Московская,д.21" target="_blank">
+                                <svg class="pointlink__svg" width="32" height="39" xmlns="http://www.w3.org/2000/svg">
+
+                                    <g>
+                                        <title>background</title>
+                                        <rect fill="none" id="canvas_background" height="41" width="34" y="-1" x="-1" />
+                                    </g>
+                                    <g>
+                                        <title>Layer 1</title>
+                                        <path id="svg_1" fill=""
+                                            d="m16.46188,24.44765c4.2282,0 7.6667,-3.4385 7.6667,-7.6667c0,-4.2281 -3.4385,-7.6666 -7.6667,-7.6666c-4.2281,0 -7.6666,3.4385 -7.6666,7.6666c0,4.2282 3.4385,7.6667 7.6666,7.6667zm0,-11.5c2.1141,0 3.8334,1.7193 3.8334,3.8333c0,2.1141 -1.7193,3.8334 -3.8334,3.8334c-2.114,0 -3.8333,-1.7193 -3.8333,-3.8334c0,-2.114 1.7193,-3.8333 3.8333,-3.8333z" />
+                                        <path stroke="null" id="svg_2" fill=""
+                                            d="m14.76387,38.398257c0.3244,0.2317 0.713,0.3562 1.1116,0.3562c0.3986,0 0.7873,-0.1245 1.1117,-0.3562c0.5827,-0.4121 14.2772,-10.3002 14.2217,-22.6435c0,-8.4544 -6.879,-15.33333 -15.3334,-15.33333c-8.4544,0 -15.33331,6.87893 -15.33331,15.32373c-0.05558,12.3529 13.63901,22.241 14.22171,22.6531zm1.1116,-34.1435c6.3423,0 11.5,5.1578 11.5,11.5096c0.0403,8.5062 -8.4103,16.1441 -11.5,18.6492c-3.0877,-2.507 -11.5402,-10.1469 -11.5,-18.6588c0,-6.3422 5.1578,-11.5 11.5,-11.5z" />
+                                    </g>
+                                </svg>
+                                ул. Московская, д 1.
+                            </a>
+
+                        </li>
+                        <li class="footermenusoslist__item flex">
+                            <a href="tel:+79414323211" class="footermenusoslist__item-link phonelink flex"
+                                aria-label="Пункт меню footer. Телефон для контактов.">
+                                <svg class="phonelink__svg" width="22" height="33" viewBox="0 0 22 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.8333 0.505371H5.16663C2.74579 0.505371 0.791626 2.45954 0.791626 4.88037V28.2137C0.791626 30.6345 2.74579 32.5887 5.16663 32.5887H16.8333C19.2541 32.5887 21.2083 30.6345 21.2083 28.2137V4.88037C21.2083 2.45954 19.2541 0.505371 16.8333 0.505371ZM13.9166 29.672H8.08329V28.2137H13.9166V29.672ZM18.6562 25.297H3.34371V4.88037H18.6562V25.297Z"
+                                        fill="" />
+                                </svg>
+                                +7 (941) 432-32-11
+                            </a>
+                        </li>
+                        <li class="footermenusoslist__item soslist flex">
+                            <a href="https://twitter.com/" target="_blank" class="footermenusoslist__item-link sosicon"
+                                aria-label="Переход на страницу в Твиттере">
+                                <svg class="sosicon__svg" width="34" height="28" viewBox="0 0 34 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M33.645 3.72533C32.4202 4.25368 31.0873 4.63392 29.7144 4.78202C31.1398 3.93521 32.2072 2.5974 32.7164 1.01958C31.3788 1.81525 29.9136 2.37319 28.3855 2.66865C27.7469 1.98591 26.9745 1.44201 26.1165 1.07084C25.2585 0.69967 24.3332 0.509182 23.3983 0.511247C19.6159 0.511247 16.5739 3.57724 16.5739 7.33968C16.5739 7.86802 16.6379 8.39636 16.742 8.90469C11.0783 8.6085 6.02705 5.90275 2.66887 1.76006C2.05697 2.8052 1.73632 3.99521 1.74026 5.20629C1.74026 7.57583 2.94505 9.66519 4.78224 10.894C3.69955 10.8513 2.64222 10.5538 1.69624 10.0254V10.1095C1.69624 13.4276 4.04176 16.1774 7.16779 16.8098C6.58084 16.9623 5.97704 17.0403 5.37062 17.042C4.92633 17.042 4.50606 16.9979 4.08178 16.9379C4.94634 19.6437 7.46398 21.6089 10.4619 21.673C8.1164 23.5102 5.17849 24.5909 1.98843 24.5909C1.41605 24.5909 0.887711 24.5709 0.339355 24.5068C3.36532 26.4481 6.95565 27.5688 10.8222 27.5688C23.3743 27.5688 30.2428 17.1701 30.2428 8.1442C30.2428 7.84801 30.2428 7.55182 30.2227 7.25562C31.5516 6.28299 32.7164 5.07821 33.645 3.72533Z"
+                                        fill="" />
+                                </svg>
+
+                            </a>
+                            <a href="https://facebook.com/" target="_blank" class="footermenusoslist__item-link sosicon"
+                                aria-label="Переход на страницу на Фейсбуке">
+                                <svg class="sosicon__svg" width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M31.7103 0.0297852H2.25117C1.54271 0.0297852 0.970337 0.602157 0.970337 1.31062V30.7697C0.970337 31.4782 1.54271 32.0506 2.25117 32.0506H31.7103C32.4187 32.0506 32.9911 31.4782 32.9911 30.7697V1.31062C32.9911 0.602157 32.4187 0.0297852 31.7103 0.0297852ZM28.0119 9.37585H25.4542C23.4489 9.37585 23.0607 10.3285 23.0607 11.7294V14.8154H27.8478L27.2234 19.6465H23.0607V32.0506H18.0694V19.6505H13.8947V14.8154H18.0694V11.2531C18.0694 7.11838 20.5951 4.86492 24.2855 4.86492C26.0546 4.86492 27.5716 4.99701 28.0159 5.05705V9.37585H28.0119Z"
+                                        fill="" />
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com/" target="_blank" class="footermenusoslist__item-link sosicon"
+                                aria-label="Переход на страницу ЛинкеДин">
+                                <svg class="sosicon__svg" width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M31.6981 0.0297852H2.23896C1.5305 0.0297852 0.95813 0.602157 0.95813 1.31062V30.7697C0.95813 31.4782 1.5305 32.0506 2.23896 32.0506H31.6981C32.4065 32.0506 32.9789 31.4782 32.9789 30.7697V1.31062C32.9789 0.602157 32.4065 0.0297852 31.6981 0.0297852ZM10.4563 27.3155H5.70521V12.0336H10.4563V27.3155ZM8.08275 9.94422C7.53811 9.94422 7.00569 9.78271 6.55283 9.48012C6.09997 9.17753 5.74701 8.74745 5.53859 8.24426C5.33016 7.74107 5.27562 7.18738 5.38188 6.65319C5.48813 6.11901 5.75041 5.62833 6.13553 5.24321C6.52066 4.85809 7.01133 4.59581 7.54552 4.48956C8.0797 4.3833 8.63339 4.43784 9.13658 4.64626C9.63977 4.85469 10.0699 5.20765 10.3724 5.66051C10.675 6.11337 10.8365 6.64578 10.8365 7.19043C10.8325 8.71142 9.59974 9.94422 8.08275 9.94422ZM28.2438 27.3155H23.4968V19.8827C23.4968 18.1095 23.4647 15.832 21.0272 15.832C18.5576 15.832 18.1773 17.7613 18.1773 19.7546V27.3155H13.4342V12.0336H17.9892V14.1229H18.0532C18.6856 12.9222 20.2346 11.6533 22.5481 11.6533C27.3593 11.6533 28.2438 14.8194 28.2438 18.9341V27.3155Z"
+                                        fill="" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
